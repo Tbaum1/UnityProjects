@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  range: 14
+  range: 10
   bulletPrefab: {fileID: 1347146304410718, guid: 1c09ea2c061cd714e9b4bacf5926d421,
     type: 2}
   fireRate: 0.5
