@@ -229,7 +229,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &12732383
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &31317599
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &39434859
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +642,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &44149042
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +787,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &46794023
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,7 +904,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &57109543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &57907973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1138,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &60588342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1255,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &78401849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,7 +1372,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &102606574
 Prefab:
   m_ObjectHideFlags: 0
@@ -1589,7 +1589,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &116922150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &134757511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,7 +1823,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &141855603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1940,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &148817829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,7 +2085,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,7 +2268,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &207195011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2385,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &212895909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,7 +2502,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &224684949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,7 +2619,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &263645717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1578132461373102, guid: a8cba69c1582f9e40bac122d0fe9b5d6,
@@ -2746,7 +2746,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &281645725
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,7 +2863,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &282868439
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,7 +3065,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &289078559
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,7 +3182,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &293742693
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,7 +3299,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &304305400
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,7 +3444,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &322333642
 GameObject:
   m_ObjectHideFlags: 0
@@ -3636,7 +3636,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &335373732
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,7 +3753,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &344862250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,7 +3870,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &349238472
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,7 +3987,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &358850560
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,7 +4104,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &373036973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,7 +4221,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &376025843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,7 +4423,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &392237599
 GameObject:
   m_ObjectHideFlags: 0
@@ -4540,7 +4540,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &393669290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,7 +4657,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &396984733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,7 +4774,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &415576749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,7 +4891,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &417681420
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,7 +5008,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &426102430
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,7 +5210,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &428594530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5327,7 +5327,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &430386865
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,7 +5444,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &440122635
 GameObject:
   m_ObjectHideFlags: 0
@@ -5561,7 +5561,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &443045767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,7 +5678,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &453316396
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,7 +5795,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &463068769
 GameObject:
   m_ObjectHideFlags: 0
@@ -5912,7 +5912,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &464062299
 GameObject:
   m_ObjectHideFlags: 0
@@ -6029,7 +6029,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &466499104
 GameObject:
   m_ObjectHideFlags: 0
@@ -6146,7 +6146,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &491034551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,7 +6291,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &512933109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6408,7 +6408,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &514456186
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,7 +6525,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &518346537
 GameObject:
   m_ObjectHideFlags: 0
@@ -6642,7 +6642,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &522886947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6759,7 +6759,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &524440021
 GameObject:
   m_ObjectHideFlags: 0
@@ -6876,7 +6876,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -7087,7 +7087,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &540713810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7204,7 +7204,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &548564370
 GameObject:
   m_ObjectHideFlags: 0
@@ -7395,7 +7395,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &564243352
 GameObject:
   m_ObjectHideFlags: 0
@@ -7417,13 +7417,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564243352}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: -0.7071068, w: 0}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 15.1, y: 0, z: 9.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1821107109}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &571403653
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,7 +7540,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &578878942
 GameObject:
   m_ObjectHideFlags: 0
@@ -7657,7 +7657,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &580032660
 GameObject:
   m_ObjectHideFlags: 0
@@ -7774,7 +7774,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &580099217
 GameObject:
   m_ObjectHideFlags: 0
@@ -7891,7 +7891,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &584177548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,7 +8008,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &597281444
 GameObject:
   m_ObjectHideFlags: 0
@@ -8125,7 +8125,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &599561029
 Prefab:
   m_ObjectHideFlags: 0
@@ -8322,7 +8322,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &609072382
 GameObject:
   m_ObjectHideFlags: 0
@@ -8439,7 +8439,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &615558648
 GameObject:
   m_ObjectHideFlags: 0
@@ -8556,7 +8556,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &623446122
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,7 +8673,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &636277202
 GameObject:
   m_ObjectHideFlags: 0
@@ -8790,7 +8790,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &638216176
 GameObject:
   m_ObjectHideFlags: 0
@@ -8907,7 +8907,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &654762149
 GameObject:
   m_ObjectHideFlags: 0
@@ -9150,7 +9150,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &676246942
 GameObject:
   m_ObjectHideFlags: 0
@@ -9267,7 +9267,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &683020403
 GameObject:
   m_ObjectHideFlags: 0
@@ -9384,7 +9384,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &685862447
 GameObject:
   m_ObjectHideFlags: 0
@@ -9501,7 +9501,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &692003829
 GameObject:
   m_ObjectHideFlags: 0
@@ -9618,7 +9618,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &704770701
 GameObject:
   m_ObjectHideFlags: 0
@@ -9735,7 +9735,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &711432782
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,7 +10022,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &730396089
 GameObject:
   m_ObjectHideFlags: 0
@@ -10139,7 +10139,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &748540772
 Prefab:
   m_ObjectHideFlags: 0
@@ -10371,7 +10371,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &766061706
 GameObject:
   m_ObjectHideFlags: 0
@@ -10488,7 +10488,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &776225201
 GameObject:
   m_ObjectHideFlags: 0
@@ -10605,7 +10605,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &782220534
 GameObject:
   m_ObjectHideFlags: 0
@@ -10722,7 +10722,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &784211988
 GameObject:
   m_ObjectHideFlags: 0
@@ -10839,7 +10839,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &805660343
 GameObject:
   m_ObjectHideFlags: 0
@@ -10956,7 +10956,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &810213129
 GameObject:
   m_ObjectHideFlags: 0
@@ -11073,7 +11073,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &821344108
 GameObject:
   m_ObjectHideFlags: 0
@@ -11190,7 +11190,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &823802329
 Prefab:
   m_ObjectHideFlags: 0
@@ -11527,7 +11527,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &866480452
 GameObject:
   m_ObjectHideFlags: 0
@@ -11644,7 +11644,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &867748416
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,7 +11761,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &871229322
 GameObject:
   m_ObjectHideFlags: 0
@@ -11878,7 +11878,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &896935218
 GameObject:
   m_ObjectHideFlags: 0
@@ -11995,7 +11995,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &904350768
 GameObject:
   m_ObjectHideFlags: 0
@@ -12112,7 +12112,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &906630298
 GameObject:
   m_ObjectHideFlags: 0
@@ -12229,7 +12229,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &910378604
 GameObject:
   m_ObjectHideFlags: 0
@@ -12346,7 +12346,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &925690534
 GameObject:
   m_ObjectHideFlags: 0
@@ -12463,7 +12463,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &945342981
 GameObject:
   m_ObjectHideFlags: 0
@@ -12580,7 +12580,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &947846271
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,7 +12697,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &952376204
 GameObject:
   m_ObjectHideFlags: 0
@@ -12863,7 +12863,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &960598931
 GameObject:
   m_ObjectHideFlags: 0
@@ -12980,7 +12980,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &967739272
 GameObject:
   m_ObjectHideFlags: 0
@@ -13097,7 +13097,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &983498697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13214,7 +13214,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &983687743
 GameObject:
   m_ObjectHideFlags: 0
@@ -13400,7 +13400,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1013275753
 GameObject:
   m_ObjectHideFlags: 0
@@ -13517,7 +13517,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1014363070
 GameObject:
   m_ObjectHideFlags: 0
@@ -13634,7 +13634,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1020334337
 GameObject:
   m_ObjectHideFlags: 0
@@ -13858,7 +13858,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1039263407
 GameObject:
   m_ObjectHideFlags: 0
@@ -14044,7 +14044,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1044289630
 GameObject:
   m_ObjectHideFlags: 0
@@ -14161,7 +14161,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1064479369
 GameObject:
   m_ObjectHideFlags: 0
@@ -14348,7 +14348,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1075773457
 GameObject:
   m_ObjectHideFlags: 0
@@ -14465,7 +14465,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1081090738
 GameObject:
   m_ObjectHideFlags: 0
@@ -14677,7 +14677,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1110238565
 GameObject:
   m_ObjectHideFlags: 0
@@ -14794,7 +14794,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1136493398
 GameObject:
   m_ObjectHideFlags: 0
@@ -14911,7 +14911,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1152711571
 GameObject:
   m_ObjectHideFlags: 0
@@ -15028,7 +15028,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1162393204
 GameObject:
   m_ObjectHideFlags: 0
@@ -15145,7 +15145,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1175588434
 GameObject:
   m_ObjectHideFlags: 0
@@ -15262,7 +15262,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &1175690993
 Prefab:
   m_ObjectHideFlags: 0
@@ -15479,7 +15479,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1183490667
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,7 +15596,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1185581458
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,7 +15713,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1191763023
 GameObject:
   m_ObjectHideFlags: 0
@@ -15830,7 +15830,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1193701987
 GameObject:
   m_ObjectHideFlags: 0
@@ -15947,7 +15947,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &1194265506
 Prefab:
   m_ObjectHideFlags: 0
@@ -15995,6 +15995,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114487005731406504, guid: 5eebc3e7a49813447a9842602dfcc66b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 71ac20910ff1beb499824ed2251537a2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eebc3e7a49813447a9842602dfcc66b, type: 2}
   m_IsPrefabAsset: 0
@@ -16120,7 +16126,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1217839255
 GameObject:
   m_ObjectHideFlags: 0
@@ -16237,7 +16243,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1229979840
 GameObject:
   m_ObjectHideFlags: 0
@@ -16354,7 +16360,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1231670219
 GameObject:
   m_ObjectHideFlags: 0
@@ -16556,7 +16562,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1254183558
 GameObject:
   m_ObjectHideFlags: 0
@@ -16701,7 +16707,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1301847045
 GameObject:
   m_ObjectHideFlags: 0
@@ -16818,7 +16824,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1302702044
 GameObject:
   m_ObjectHideFlags: 0
@@ -16935,7 +16941,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1316912955
 GameObject:
   m_ObjectHideFlags: 0
@@ -17052,7 +17058,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1324454729
 GameObject:
   m_ObjectHideFlags: 0
@@ -17169,7 +17175,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1327868612
 GameObject:
   m_ObjectHideFlags: 0
@@ -17286,7 +17292,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1350623421
 GameObject:
   m_ObjectHideFlags: 0
@@ -17403,7 +17409,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1363496499
 GameObject:
   m_ObjectHideFlags: 0
@@ -17520,7 +17526,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1371015534
 GameObject:
   m_ObjectHideFlags: 0
@@ -17712,7 +17718,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1376836974
 GameObject:
   m_ObjectHideFlags: 0
@@ -17988,18 +17994,20 @@ MonoBehaviour:
   waves:
   - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
       type: 2}
-    enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 0}
+    enemyFastPrefab: {fileID: 1941999071913050, guid: aff0e563e77cee64185df7cca285f577,
+      type: 2}
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
+      type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 1
     enemyFastCount: 0
-    enemyToughCount: 0
+    enemyToughCount: 1
     enemyBossCount: 0
     enemySimpleRate: 2
     enemyFastRate: 0
-    enemyToughRate: 0
+    enemyToughRate: 1
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18012,7 +18020,7 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18025,7 +18033,7 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18042,7 +18050,7 @@ MonoBehaviour:
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
       type: 2}
-    enemyBossPrefab: {fileID: 1722351770565218, guid: 0b3bf5c20a282c1428331d325001d8ab,
+    enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
     enemySimpleCount: 0
     enemyFastCount: 0
@@ -18052,9 +18060,9 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 1
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1584854228056124, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18264,12 +18272,10 @@ MonoBehaviour:
     enemyFastRate: 3
     enemyToughRate: 2
     enemyBossRate: 2
-  enemyPrefab: {fileID: 4778189909288856, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
-    type: 2}
   spawnPoint: {fileID: 4264913204542174, guid: 56d011989742c274b8ca32589ada65a6, type: 2}
   waveCountdownText: {fileID: 1380326924}
   waveNumberText: {fileID: 1428698671}
-  waveSpawnCounter: 8
+  waveSpawnCounter: 1
   gameManager: {fileID: 1384133588}
 --- !u!4 &1384133585
 Transform:
@@ -18277,13 +18283,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1384133583}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 22.200785, y: -52.92054, z: 56.756664}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1384133586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18312,7 +18318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93623fc71ffd46f4bbf9b89d4c5f38ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoins: 350
+  startCoins: 3500
   startLives: 20
 --- !u!114 &1384133588
 MonoBehaviour:
@@ -18457,7 +18463,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1402568496
 GameObject:
   m_ObjectHideFlags: 0
@@ -18574,7 +18580,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1402972631
 GameObject:
   m_ObjectHideFlags: 0
@@ -18691,7 +18697,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1414046102
 GameObject:
   m_ObjectHideFlags: 0
@@ -18836,7 +18842,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1420927747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1353984942743852, guid: 281cf246fd8205c4d99a8317e26cc741,
@@ -18963,7 +18969,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1425863028
 GameObject:
   m_ObjectHideFlags: 0
@@ -19080,7 +19086,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1426838407
 GameObject:
   m_ObjectHideFlags: 0
@@ -19197,7 +19203,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!114 &1428698671 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114981550907236448, guid: dd93aa80e4774334bbdccae37a2513e1,
@@ -19428,7 +19434,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1456673895
 GameObject:
   m_ObjectHideFlags: 0
@@ -19545,7 +19551,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1460088611
 GameObject:
   m_ObjectHideFlags: 0
@@ -19662,7 +19668,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1466701176
 GameObject:
   m_ObjectHideFlags: 0
@@ -19779,7 +19785,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1470738388
 GameObject:
   m_ObjectHideFlags: 0
@@ -20022,7 +20028,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1483150813
 GameObject:
   m_ObjectHideFlags: 0
@@ -20139,7 +20145,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1492071075
 GameObject:
   m_ObjectHideFlags: 0
@@ -20256,7 +20262,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1506324860
 GameObject:
   m_ObjectHideFlags: 0
@@ -20470,7 +20476,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1514987048
 GameObject:
   m_ObjectHideFlags: 0
@@ -20587,7 +20593,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1515555831
 GameObject:
   m_ObjectHideFlags: 0
@@ -20704,7 +20710,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1522397502
 GameObject:
   m_ObjectHideFlags: 0
@@ -20915,7 +20921,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1533442696
 GameObject:
   m_ObjectHideFlags: 0
@@ -21032,7 +21038,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1540201303
 GameObject:
   m_ObjectHideFlags: 0
@@ -21149,7 +21155,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1541563969
 GameObject:
   m_ObjectHideFlags: 0
@@ -21266,7 +21272,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1551570643
 GameObject:
   m_ObjectHideFlags: 0
@@ -21468,7 +21474,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1580405657
 GameObject:
   m_ObjectHideFlags: 0
@@ -21585,7 +21591,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1591952321
 GameObject:
   m_ObjectHideFlags: 0
@@ -21702,7 +21708,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1594380258
 GameObject:
   m_ObjectHideFlags: 0
@@ -21819,7 +21825,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1601047604
 GameObject:
   m_ObjectHideFlags: 0
@@ -22015,7 +22021,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1617104830
 GameObject:
   m_ObjectHideFlags: 0
@@ -22132,7 +22138,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1632253862
 GameObject:
   m_ObjectHideFlags: 0
@@ -22249,7 +22255,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1640581856
 GameObject:
   m_ObjectHideFlags: 0
@@ -22445,7 +22451,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1644844888
 GameObject:
   m_ObjectHideFlags: 0
@@ -22562,7 +22568,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1657138760
 GameObject:
   m_ObjectHideFlags: 0
@@ -22679,7 +22685,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1662494291
 GameObject:
   m_ObjectHideFlags: 0
@@ -22796,7 +22802,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1664786279
 GameObject:
   m_ObjectHideFlags: 0
@@ -23053,7 +23059,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1669880815
 GameObject:
   m_ObjectHideFlags: 0
@@ -23170,7 +23176,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1672039724
 GameObject:
   m_ObjectHideFlags: 0
@@ -23287,7 +23293,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1681292429
 GameObject:
   m_ObjectHideFlags: 0
@@ -23432,7 +23438,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1699772085
 GameObject:
   m_ObjectHideFlags: 0
@@ -23549,7 +23555,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1740780513
 GameObject:
   m_ObjectHideFlags: 0
@@ -23666,7 +23672,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1750319704
 GameObject:
   m_ObjectHideFlags: 0
@@ -23783,7 +23789,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1751089928
 GameObject:
   m_ObjectHideFlags: 0
@@ -23900,7 +23906,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1766583063
 GameObject:
   m_ObjectHideFlags: 0
@@ -24017,7 +24023,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1781708276
 GameObject:
   m_ObjectHideFlags: 0
@@ -24296,7 +24302,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &1799530398
 Prefab:
   m_ObjectHideFlags: 0
@@ -24479,7 +24485,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1809495048
 GameObject:
   m_ObjectHideFlags: 0
@@ -24596,7 +24602,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1810342076
 GameObject:
   m_ObjectHideFlags: 0
@@ -24713,7 +24719,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1812258852
 GameObject:
   m_ObjectHideFlags: 0
@@ -24830,7 +24836,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1821107107
 GameObject:
   m_ObjectHideFlags: 0
@@ -25025,7 +25031,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1834937084
 GameObject:
   m_ObjectHideFlags: 0
@@ -25142,7 +25148,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1839474544
 GameObject:
   m_ObjectHideFlags: 0
@@ -25259,7 +25265,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1842349766
 GameObject:
   m_ObjectHideFlags: 0
@@ -25376,7 +25382,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1843788705
 GameObject:
   m_ObjectHideFlags: 0
@@ -25493,7 +25499,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1856337429
 GameObject:
   m_ObjectHideFlags: 0
@@ -25728,7 +25734,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1885343180
 GameObject:
   m_ObjectHideFlags: 0
@@ -25845,7 +25851,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1888184382
 GameObject:
   m_ObjectHideFlags: 0
@@ -25962,7 +25968,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1889995827
 GameObject:
   m_ObjectHideFlags: 0
@@ -26079,7 +26085,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1894629595
 GameObject:
   m_ObjectHideFlags: 0
@@ -26196,7 +26202,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1919196103
 GameObject:
   m_ObjectHideFlags: 0
@@ -26313,7 +26319,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1923574854
 GameObject:
   m_ObjectHideFlags: 0
@@ -26430,7 +26436,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1926218331
 GameObject:
   m_ObjectHideFlags: 0
@@ -26547,7 +26553,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1941032958
 GameObject:
   m_ObjectHideFlags: 0
@@ -26889,7 +26895,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1956759179
 GameObject:
   m_ObjectHideFlags: 0
@@ -27006,7 +27012,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1959333070
 GameObject:
   m_ObjectHideFlags: 0
@@ -27123,7 +27129,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &1969600269
 Prefab:
   m_ObjectHideFlags: 0
@@ -27349,7 +27355,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &1999631686
 GameObject:
   m_ObjectHideFlags: 0
@@ -27466,7 +27472,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2029708245
 GameObject:
   m_ObjectHideFlags: 0
@@ -27583,7 +27589,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2031210353
 GameObject:
   m_ObjectHideFlags: 0
@@ -27700,7 +27706,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2035692461
 GameObject:
   m_ObjectHideFlags: 0
@@ -27817,7 +27823,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1001 &2040417924
 Prefab:
   m_ObjectHideFlags: 0
@@ -27855,7 +27861,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4264913204542174, guid: 56d011989742c274b8ca32589ada65a6, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d011989742c274b8ca32589ada65a6, type: 2}
@@ -27976,7 +27982,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2054536577
 GameObject:
   m_ObjectHideFlags: 0
@@ -28378,7 +28384,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2088672429
 GameObject:
   m_ObjectHideFlags: 0
@@ -28495,7 +28501,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2092193618
 GameObject:
   m_ObjectHideFlags: 0
@@ -28612,7 +28618,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2126198059
 GameObject:
   m_ObjectHideFlags: 0
@@ -28729,7 +28735,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2130583759
 GameObject:
   m_ObjectHideFlags: 0
@@ -28846,7 +28852,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2143132220
 GameObject:
   m_ObjectHideFlags: 0
@@ -28963,7 +28969,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2143544814
 GameObject:
   m_ObjectHideFlags: 0
@@ -29080,7 +29086,7 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0
 --- !u!1 &2144786206
 GameObject:
   m_ObjectHideFlags: 0
@@ -29282,4 +29288,4 @@ MonoBehaviour:
     LevelFourCost: 0
     sellAmountLevelFour: 0
   isUpgraded: 0
-  turretLevel: 1
+  turretLevel: 0

@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour {
     /// <param name="amount"></param>
     public void TakeDamage(float amount)
     {
-        Debug.Log("Health before hti" + health);
+        Debug.Log("Health before hit" + health);
         health -= amount;  //takes away the amount of damage from the enemy health
 
         healthbar.fillAmount = health / startHealth;  //sets how much the health bar is filled

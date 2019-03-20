@@ -8,7 +8,7 @@ public class WaveSpawn : MonoBehaviour {
 
     public Wave[] waves;
 
-    public Transform enemyPrefab;
+    //public Transform enemyPrefab;
     public Transform spawnPoint;
 
     public Text waveCountdownText;  //refrence to the coutdownTimer text
@@ -77,7 +77,7 @@ public class WaveSpawn : MonoBehaviour {
         //interate through the number of enemies in the wave
         for (int i =0; i < wave.enemySimpleCount; i++)
         {
-            if (wave.enemySimplePrefab.name == "Enemy_Simple")
+            if (wave.enemySimplePrefab.name == "Enemy_Simple" || wave.enemySimplePrefab.name == "Enemy_Simple1")
             {
                 SpawnEnemy(wave.enemySimplePrefab); //calls the SpawnEnemy function and passes the enemy prefab to use
                 yield return new WaitForSeconds(1f / wave.enemySimpleRate);  //pauses the respawn of each enemy so they don't spawn on each other
@@ -86,7 +86,7 @@ public class WaveSpawn : MonoBehaviour {
 
         for (int i = 0; i < wave.enemyFastCount; i++)
         {            
-            if (wave.enemyFastPrefab.name == "Enemy_Fast")
+            if (wave.enemyFastPrefab.name == "Enemy_Fast" || wave.enemyFastPrefab.name == "Enemy_Fast1")
             {
                 SpawnEnemy(wave.enemyFastPrefab); //calls the SpawnEnemy function and passes the enemy prefab to use
                 yield return new WaitForSeconds(1f / wave.enemyFastRate);  //pauses the respawn of each enemy so they don't spawn on each other
@@ -95,7 +95,7 @@ public class WaveSpawn : MonoBehaviour {
 
         for (int i = 0; i < wave.enemyToughCount; i++)
         {
-            if (wave.enemyToughPrefab.name == "Enemy_Tough")
+            if (wave.enemyToughPrefab.name == "Enemy_Tough" || wave.enemyToughPrefab.name == "Enemy_Tough1")
             {
                 SpawnEnemy(wave.enemyToughPrefab); //calls the SpawnEnemy function and passes the enemy prefab to use
                 yield return new WaitForSeconds(1f / wave.enemyToughRate);  //pauses the respawn of each enemy so they don't spawn on each other
@@ -104,7 +104,7 @@ public class WaveSpawn : MonoBehaviour {
 
         for (int i = 0; i < wave.enemyBossCount; i++)
         {
-            if (wave.enemyBossPrefab.name == "Enemy_Boss")
+            if (wave.enemyBossPrefab.name == "Enemy_Boss" || wave.enemyBossPrefab.name == "Enemy_Boss1")
             {
                 SpawnEnemy(wave.enemyBossPrefab); //calls the SpawnEnemy function and passes the enemy prefab to use
                 yield return new WaitForSeconds(1f / wave.enemyBossRate);  //pauses the respawn of each enemy so they don't spawn on each other
