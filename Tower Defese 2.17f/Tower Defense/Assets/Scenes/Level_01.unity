@@ -1418,7 +1418,7 @@ Prefab:
     - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
         type: 2}
@@ -8163,7 +8163,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4640622863555448, guid: 62e6b400aaa89ae448a2b2cc3ea70c7a, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62e6b400aaa89ae448a2b2cc3ea70c7a, type: 2}
@@ -15308,7 +15308,7 @@ Prefab:
     - target: {fileID: 224745279187084814, guid: 8636db129e64f1241b6529ec61099e60,
         type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 224745279187084814, guid: 8636db129e64f1241b6529ec61099e60,
         type: 2}
@@ -17992,22 +17992,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1941999071913050, guid: aff0e563e77cee64185df7cca285f577,
-      type: 2}
-    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
-      type: 2}
+    enemyFastPrefab: {fileID: 0}
+    enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 1
     enemyFastCount: 0
-    enemyToughCount: 1
+    enemyToughCount: 0
     enemyBossCount: 0
     enemySimpleRate: 2
     enemyFastRate: 0
-    enemyToughRate: 1
+    enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18020,7 +18018,7 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18033,7 +18031,7 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18048,7 +18046,7 @@ MonoBehaviour:
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
     enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
@@ -18060,9 +18058,9 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 1
-  - enemySimplePrefab: {fileID: 1103426654836114, guid: 4badc26668c1b3a4cb772e156c50d8b6,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1584854228056124, guid: aff0e563e77cee64185df7cca285f577,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18075,7 +18073,7 @@ MonoBehaviour:
     enemyToughRate: 0
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18087,10 +18085,10 @@ MonoBehaviour:
     enemyFastRate: 3
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 8
@@ -18101,11 +18099,11 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 12
@@ -18116,12 +18114,12 @@ MonoBehaviour:
     enemyFastRate: 2
     enemyToughRate: 1
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
-    enemyBossPrefab: {fileID: 1722351770565218, guid: 0b3bf5c20a282c1428331d325001d8ab,
+    enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
     enemySimpleCount: 8
     enemyFastCount: 0
@@ -18131,9 +18129,9 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 1
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18146,9 +18144,9 @@ MonoBehaviour:
     enemyToughRate: 0
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 0
@@ -18159,10 +18157,11 @@ MonoBehaviour:
     enemyFastRate: 2
     enemyToughRate: 2
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
+      type: 2}
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 8
@@ -18174,7 +18173,7 @@ MonoBehaviour:
     enemyToughRate: 2
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18187,10 +18186,10 @@ MonoBehaviour:
     enemyToughRate: 0
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
-    enemyBossPrefab: {fileID: 1722351770565218, guid: 0b3bf5c20a282c1428331d325001d8ab,
+    enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
     enemySimpleCount: 0
     enemyFastCount: 8
@@ -18200,7 +18199,7 @@ MonoBehaviour:
     enemyFastRate: 4
     enemyToughRate: 0
     enemyBossRate: 2
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
@@ -18213,11 +18212,11 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 6
@@ -18228,10 +18227,10 @@ MonoBehaviour:
     enemyFastRate: 3
     enemyToughRate: 2
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
     enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 8
@@ -18242,9 +18241,9 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
@@ -18256,13 +18255,13 @@ MonoBehaviour:
     enemyFastRate: 3
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1722351770565218, guid: 9efb4d5fdb9ee264c890ed8dcd5496ad,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1722351770565218, guid: 448dccf37f4790947b8d63cb3233db7e,
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
-    enemyToughPrefab: {fileID: 1722351770565218, guid: b96c42336756d4c48b000d83b417fe95,
+    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
-    enemyBossPrefab: {fileID: 1722351770565218, guid: 0b3bf5c20a282c1428331d325001d8ab,
+    enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
     enemySimpleCount: 12
     enemyFastCount: 15
@@ -18288,7 +18287,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1384133586
 MonoBehaviour:
@@ -24885,7 +24884,7 @@ Transform:
   - {fileID: 148817830}
   - {fileID: 1869413772}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824408869
 GameObject:
@@ -27861,7 +27860,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4264913204542174, guid: 56d011989742c274b8ca32589ada65a6, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d011989742c274b8ca32589ada65a6, type: 2}
@@ -28191,7 +28190,7 @@ Transform:
   m_LocalScale: {x: 400, y: 1, z: 300}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074774498
 GameObject:
