@@ -678,7 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  range: 10
+  range: 11
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1

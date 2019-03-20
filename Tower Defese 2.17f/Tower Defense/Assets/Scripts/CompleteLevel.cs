@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CompleteLevel : MonoBehaviour {
 
-    public string meneSceneName = "MainMenu";
+    public string menuSceneName = "MainMenu";
     public string nextLevel = "Level_02";
 
     public int levelToUnlock = 2;
@@ -18,7 +18,7 @@ public class CompleteLevel : MonoBehaviour {
 
     public void Menu()
     {        
-        sceneFader.FadeTo(meneSceneName);
+        sceneFader.FadeTo(menuSceneName);
     }
 
     public void Continue()

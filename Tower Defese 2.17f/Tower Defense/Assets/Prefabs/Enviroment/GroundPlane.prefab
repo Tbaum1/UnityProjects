@@ -52,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1967099354686050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.02, y: 0, z: 0}
-  m_LocalScale: {x: 4.8822174, y: 4.882218, z: 4.882218}
+  m_LocalPosition: {x: -5.4, y: 0, z: -4.62}
+  m_LocalScale: {x: 7.8571672, y: 4.882218, z: 5.8098397}
   m_Children: []
   m_Father: {fileID: 4445553627764586}
   m_RootOrder: 0
@@ -66,7 +66,7 @@ Transform:
   m_GameObject: {fileID: 1460107067937128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.8, y: -4, z: 0}
-  m_LocalScale: {x: 3.5950663, y: 3.5950663, z: 3.5950663}
+  m_LocalScale: {x: 5.482476, y: 3.5950663, z: 4.673586}
   m_Children:
   - {fileID: 4054176908217494}
   m_Father: {fileID: 0}
@@ -152,7 +152,7 @@ ReflectionProbe:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IntensityMultiplier: 1
+  m_IntensityMultiplier: 0.3
   m_BlendDistance: 1
   m_HDR: 1
   m_BoxProjection: 0

@@ -11,6 +11,7 @@ public class EnemyMovement : MonoBehaviour {
     public float smooth = 2f;  //variable to control how fast the enemy turns to face the next waypoint/target
 
     private Transform target;
+    private Vector3 pos;
 
     private int wavepointIndex;  //instantiate variable for wavepointIndex
 
@@ -20,12 +21,14 @@ public class EnemyMovement : MonoBehaviour {
     {
         rotation = healthCanvas.transform.rotation;
         healthCanvas.transform.rotation = rotation;
+        
     }
 
     private void Start()
     {        
         enemy = GetComponent<Enemy>();  //gets the enemy prefab 
-        target = Waypoints.waypoints[0];  //sets the waypoint/target for the enemy to start moving toward at start                
+        target = Waypoints.waypoints[0];  //sets the waypoint/target for the enemy to start moving toward at start   
+        pos.y -= 1f;
     }
 
     /// <summary>
@@ -48,17 +51,7 @@ public class EnemyMovement : MonoBehaviour {
 
         enemy.speed = enemy.startSpeed;  //sets the start speed of the enemy
     }
-
-    //private void Awake()
-    //{
-    //    rotation = transform.rotation;
-    //}
-
-    //private void LateUpdate()
-    //{
-    //    healthCanvas.transform.rotation = rotation;
-    //}
-
+    
     /// <summary>
     /// gets and sets the next waypoint for the target
     /// </summary>
