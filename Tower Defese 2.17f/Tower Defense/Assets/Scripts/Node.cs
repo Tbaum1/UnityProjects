@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Node : MonoBehaviour {
 
     public Color hoverColor;
     public Color notEnoughCoinsColor;
 
+    public Text turretShopInfo;
+    public Text turretName;
+
     public Vector3 positionOffset;
 
+    private WaveSpawn waveSpawn;
     private Color startColor;
     private int sellAmount;
     public int sellAmountUpgrade;
@@ -32,6 +37,7 @@ public class Node : MonoBehaviour {
         startColor = rend.material.color;  //sets the starting color of the node object
         buildManager = BuildManager.instance; //set buildManager to the BuildManger script
         turretLevel = 0;
+        //waveSpawn.turretShopInfo.text = " ";
     }
 
     /// <summary>
@@ -49,10 +55,16 @@ public class Node : MonoBehaviour {
     /// <param name="blueprint"></param>
     void BuildTurret(TurretBlueprint blueprint)
     {
+        DisableText();
         //checks to see if player has enough coins to buy the turret chosen
         if (PlayerStats.Coins < blueprint.LevelOneCost)
         {
             Debug.Log("Not enough coins to build");
+            turretShopInfo.enabled = true;
+            turretName.enabled = true;
+            turretName.text = blueprint.LevelOneprefab.name;
+            turretShopInfo.text = "Not Enough Coins To Buy";
+            Invoke("DisableText", 5f);
             return;
         }
 
@@ -66,9 +78,22 @@ public class Node : MonoBehaviour {
         Destroy(effect, 3f);
 
         turretLevel = 1;  //sets the target node turretLevel to 1
-
+        turretShopInfo.enabled = true;
+        turretName.enabled = true;
+        turretName.text = blueprint.LevelOneprefab.name;
+        turretShopInfo.text = " Purchased";
+        Invoke("DisableText", 5f);
         //display how many coins are left
         Debug.Log("Turret built cost: " + blueprint.LevelOneCost + ", Coins left: " + PlayerStats.Coins);
+    }
+
+    /// <summary>
+    /// disables the Text displayed in the shop informing player of turret purchases or not enough coins
+    /// </summary>
+    private void DisableText()
+    {
+        turretName.enabled = false;
+        turretShopInfo.enabled = false;
     }
 
     /// <summary>
@@ -78,7 +103,7 @@ public class Node : MonoBehaviour {
     //private void GetBuildEffect(TurretBlueprint b)
     //{
     //    string blueprintName = b.prefab.name;
-        
+
     //    if (blueprintName == "MissileTurret")
     //    {
     //        GameObject effect = (GameObject)Instantiate(buildManager.MissileBuildEffect, GetBuildPosition(), Quaternion.identity);
@@ -133,6 +158,7 @@ public class Node : MonoBehaviour {
         if (!buildManager.CanBuild)  //only lets the hover color change to happen if user has selected a turret to build
             return;
 
+        
         if (buildManager.HasLevelOneCoins || buildManager.HasLevelTwoCoins || buildManager.HasLevelThreeCoins || buildManager.HasLevelFourCoins)  //if player has enough coins to purchase turret then it highlights the node according
         {
             rend.material.color = hoverColor;

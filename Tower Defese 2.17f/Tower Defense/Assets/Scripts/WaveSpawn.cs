@@ -12,7 +12,7 @@ public class WaveSpawn : MonoBehaviour {
     public Transform spawnPoint;
 
     public Text waveCountdownText;  //refrence to the coutdownTimer text
-    public Text waveNumberText;
+    public Text waveNumberText;    
 
     public float waveSpawnCounter = 15f;  //tracks time in between wave spawns
     private float spawnCountDown = 2f;  //initial time for first wave

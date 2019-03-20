@@ -212,6 +212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -329,6 +331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -347,6 +351,106 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
+--- !u!1001 &17536573
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1506324864}
+    m_Modifications:
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 406.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -114.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 254.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 63.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c88abcdc49ee7cd4ab19b8d6c196c056, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &31317599
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +612,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -625,6 +731,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -770,6 +878,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -887,6 +997,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1004,6 +1116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1121,6 +1235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1238,6 +1354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1355,6 +1473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1373,106 +1493,6 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
---- !u!1001 &102606574
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -64.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 27.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 1580
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 288
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dd93aa80e4774334bbdccae37a2513e1, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &102664122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,6 +1592,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1689,6 +1711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1806,6 +1830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -1923,6 +1949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2068,6 +2096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2086,6 +2116,51 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
+--- !u!1 &159189687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1655581474221868, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159189688}
+  - component: {fileID: 159189689}
+  - component: {fileID: 1428698671}
+  m_Layer: 5
+  m_Name: WaveNumber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &159189688
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224422320924796998, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159189687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 857449403}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -501.4, y: 0}
+  m_SizeDelta: {x: 577.1, y: 288}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &159189689
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222377062101931770, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159189687}
+  m_CullTransparentMesh: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2368,6 +2445,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2485,6 +2564,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2602,6 +2683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2620,6 +2703,67 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
+--- !u!1 &247018055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1508964421752872, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247018056}
+  - component: {fileID: 247018058}
+  - component: {fileID: 1380326924}
+  - component: {fileID: 247018057}
+  m_Layer: 5
+  m_Name: WaveCountdown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &247018056
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224717829731126128, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247018055}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0000006e-15}
+  m_LocalScale: {x: 0.99999994, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 857449403}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 590.7, y: 0}
+  m_SizeDelta: {x: -1181.4, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &247018057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114777477613774732, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247018055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
+--- !u!222 &247018058
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222134162828650510, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247018055}
+  m_CullTransparentMesh: 0
 --- !u!1 &263645717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1578132461373102, guid: a8cba69c1582f9e40bac122d0fe9b5d6,
@@ -2729,6 +2873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -2846,6 +2992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3048,6 +3196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3165,6 +3315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3282,6 +3434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3427,6 +3581,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3619,6 +3775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3736,6 +3894,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3853,6 +4013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -3970,6 +4132,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4087,6 +4251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4204,6 +4370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4406,6 +4574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4523,6 +4693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4640,6 +4812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4757,6 +4931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4874,6 +5050,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -4991,6 +5169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5193,6 +5373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5310,6 +5492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5427,6 +5611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5544,6 +5730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5661,6 +5849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5778,6 +5968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -5895,6 +6087,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6012,6 +6206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6129,6 +6325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6274,6 +6472,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6391,6 +6591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6508,6 +6710,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6625,6 +6829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6742,6 +6948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -6859,6 +7067,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7070,6 +7280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7187,6 +7399,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7378,6 +7592,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7523,6 +7739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7640,6 +7858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7757,6 +7977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7874,6 +8096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -7991,6 +8215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8108,6 +8334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8305,6 +8533,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8422,6 +8652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8539,6 +8771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8656,6 +8890,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8773,6 +9009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -8890,6 +9128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9133,6 +9373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9250,6 +9492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9367,6 +9611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9484,6 +9730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9601,6 +9849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -9718,6 +9968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10005,6 +10257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10122,6 +10376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10354,6 +10610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10471,6 +10729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10588,6 +10848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10705,6 +10967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10822,6 +11086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -10939,6 +11205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11056,6 +11324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11173,6 +11443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11411,6 +11683,106 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71a7ad4b84ec65e41a13e966204a3922, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &857449399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1283744709750622, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857449403}
+  - component: {fileID: 857449402}
+  - component: {fileID: 857449401}
+  - component: {fileID: 857449400}
+  m_Layer: 5
+  m_Name: BottomCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &857449400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114763668834549140, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857449399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &857449401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114065729163388420, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857449399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &857449402
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 223594164234059356, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857449399}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &857449403
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224127819212391342, guid: dd93aa80e4774334bbdccae37a2513e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857449399}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -64.8}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_Children:
+  - {fileID: 247018056}
+  - {fileID: 159189688}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 27.3, y: -0}
+  m_SizeDelta: {x: 1580, y: 288}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &861534759
 GameObject:
   m_ObjectHideFlags: 0
@@ -11510,6 +11882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11627,6 +12001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11744,6 +12120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11861,6 +12239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -11978,6 +12358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12095,6 +12477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12212,6 +12596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12329,6 +12715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12446,6 +12834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12563,6 +12953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12680,6 +13072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12846,6 +13240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -12963,6 +13359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13080,6 +13478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13197,6 +13597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13383,6 +13785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13500,6 +13904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13617,6 +14023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -13841,6 +14249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14027,6 +14437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14144,6 +14556,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14331,6 +14745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14448,6 +14864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14660,6 +15078,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14777,6 +15197,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -14894,6 +15316,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15011,6 +15435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15128,6 +15554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15245,6 +15673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15462,6 +15892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15579,6 +16011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15696,6 +16130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15813,6 +16249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -15930,6 +16368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16109,6 +16549,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16226,6 +16668,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16343,6 +16787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16545,6 +16991,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16591,6 +17039,112 @@ Transform:
   m_Father: {fileID: 1821107109}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &1259933491
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1506324864}
+    m_Modifications:
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -99.94859
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 940.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -343.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1967.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 638.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35e2f53fb1cb5c94e985d8e56c011b6a, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1259933492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114391635436981712, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1259933491}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1300019654
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,6 +17244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16807,6 +17363,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -16924,6 +17482,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17041,6 +17601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17158,6 +17720,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17275,6 +17839,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17392,6 +17958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17509,6 +18077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17701,6 +18271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -17954,12 +18526,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1380326924 stripped
+--- !u!114 &1380326924
 MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 114955159060491512, guid: dd93aa80e4774334bbdccae37a2513e1,
     type: 2}
-  m_PrefabInternal: {fileID: 102606574}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247018055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.79607844, g: 0.4862745, b: 0.22352941, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2c494af82efc29645afd7c4a0aca36e2, type: 3}
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
+    m_Alignment: 2
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 12.00
 --- !u!1 &1384133583
 GameObject:
   m_ObjectHideFlags: 0
@@ -18317,7 +18917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93623fc71ffd46f4bbf9b89d4c5f38ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoins: 3500
+  startCoins: 350
   startLives: 20
 --- !u!114 &1384133588
 MonoBehaviour:
@@ -18445,6 +19045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -18562,6 +19164,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -18679,6 +19283,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -18824,6 +19430,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -18951,6 +19559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19068,6 +19678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19185,6 +19797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19203,12 +19817,40 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
---- !u!114 &1428698671 stripped
+--- !u!114 &1428698671
 MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 114981550907236448, guid: dd93aa80e4774334bbdccae37a2513e1,
     type: 2}
-  m_PrefabInternal: {fileID: 102606574}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159189687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.79607844, g: 0.4862745, b: 0.22352941, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2c494af82efc29645afd7c4a0aca36e2, type: 3}
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 175
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Wave 1
 --- !u!1 &1436768223
 GameObject:
   m_ObjectHideFlags: 0
@@ -19416,6 +20058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19533,6 +20177,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19650,6 +20296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -19767,6 +20415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20010,6 +20660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20127,6 +20779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20244,6 +20898,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20351,6 +21007,8 @@ RectTransform:
   - {fileID: 548564371}
   - {fileID: 1420927748}
   - {fileID: 263645718}
+  - {fileID: 2134516954}
+  - {fileID: 1850603326}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20458,6 +21116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20575,6 +21235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20692,6 +21354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -20903,6 +21567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21020,6 +21686,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21137,6 +21805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21254,6 +21924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21456,6 +22128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21573,6 +22247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21690,6 +22366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -21807,6 +22485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22003,6 +22683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22120,6 +22802,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22237,6 +22921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22433,6 +23119,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22550,6 +23238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22667,6 +23357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -22784,6 +23476,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23041,6 +23735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23158,6 +23854,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23275,6 +23973,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23420,6 +24120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23537,6 +24239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23654,6 +24358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23771,6 +24477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -23888,6 +24596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24005,6 +24715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24284,6 +24996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24309,57 +25023,48 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1376836975}
     m_Modifications:
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4508737856716880, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
+    - target: {fileID: 4822985529064446, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114178234174584380, guid: 443244fc2fe382f4f85dd14f3fc08813,
+    - target: {fileID: 114275853934373706, guid: 443244fc2fe382f4f85dd14f3fc08813,
         type: 2}
-      propertyPath: notEnoughCoinsColor.r
-      value: 0.7830189
-      objectReference: {fileID: 0}
-    - target: {fileID: 114178234174584380, guid: 443244fc2fe382f4f85dd14f3fc08813,
+      propertyPath: turretShopInfo
+      value: 
+      objectReference: {fileID: 1259933492}
+    - target: {fileID: 114275853934373706, guid: 443244fc2fe382f4f85dd14f3fc08813,
         type: 2}
-      propertyPath: notEnoughCoinsColor.g
-      value: 0.19575472
-      objectReference: {fileID: 0}
-    - target: {fileID: 114178234174584380, guid: 443244fc2fe382f4f85dd14f3fc08813,
-        type: 2}
-      propertyPath: notEnoughCoinsColor.b
-      value: 0.19575472
-      objectReference: {fileID: 0}
-    - target: {fileID: 1995238631425044, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
+      propertyPath: turretName
+      value: 
+      objectReference: {fileID: 1850603327}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 443244fc2fe382f4f85dd14f3fc08813, type: 2}
   m_IsPrefabAsset: 0
@@ -24467,6 +25172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24584,6 +25291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24701,6 +25410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -24818,6 +25529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25013,6 +25726,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25130,6 +25845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25247,6 +25964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25364,6 +26083,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25481,6 +26202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25499,6 +26222,17 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
+--- !u!224 &1850603326 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224666831594108512, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+    type: 2}
+  m_PrefabInternal: {fileID: 17536573}
+--- !u!114 &1850603327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114016753067232006, guid: c88abcdc49ee7cd4ab19b8d6c196c056,
+    type: 2}
+  m_PrefabInternal: {fileID: 17536573}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1856337429
 GameObject:
   m_ObjectHideFlags: 0
@@ -25716,6 +26450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25833,6 +26569,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -25950,6 +26688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26067,6 +26807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26184,6 +26926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26301,6 +27045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26418,6 +27164,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26535,6 +27283,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26877,6 +27627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -26994,6 +27746,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27111,6 +27865,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27337,6 +28093,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27454,6 +28212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27571,6 +28331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27688,6 +28450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27805,6 +28569,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -27964,6 +28730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28366,6 +29134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28483,6 +29253,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28600,6 +29372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28717,6 +29491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28834,6 +29610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -28852,6 +29630,11 @@ MonoBehaviour:
     sellAmountLevelFour: 0
   isUpgraded: 0
   turretLevel: 0
+--- !u!224 &2134516954 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224080572257313896, guid: 35e2f53fb1cb5c94e985d8e56c011b6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1259933491}
 --- !u!1 &2143132220
 GameObject:
   m_ObjectHideFlags: 0
@@ -28951,6 +29734,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -29068,6 +29853,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}
@@ -29270,6 +30057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 1259933492}
+  turretName: {fileID: 1850603327}
   positionOffset: {x: 0, y: 0.5, z: 0}
   sellAmountUpgrade: 0
   turret: {fileID: 0}

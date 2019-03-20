@@ -110,13 +110,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.5943396, g: 0.5747152, b: 0.5747152, a: 0}
   notEnoughCoinsColor: {r: 0.7830189, g: 0.19575472, b: 0.19575472, a: 0}
+  turretShopInfo: {fileID: 0}
+  turretName: {fileID: 0}
   positionOffset: {x: 0, y: 0.5, z: 0}
+  sellAmountUpgrade: 0
   turret: {fileID: 0}
   turretBlueprint:
-    prefab: {fileID: 0}
-    cost: 0
-    sellAmount: 0
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
-    sellAmountUpgraded: 0
+    LevelOneprefab: {fileID: 0}
+    LevelOneCost: 0
+    sellAmountLevelOne: 0
+    levelTwoPrefab: {fileID: 0}
+    LevelTwoCost: 0
+    sellAmountLevelTwo: 0
+    levelThreePrefab: {fileID: 0}
+    LevelThreeCost: 0
+    sellAmountLevelThree: 0
+    levelFourPrefab: {fileID: 0}
+    LevelFourCost: 0
+    sellAmountLevelFour: 0
   isUpgraded: 0
+  turretLevel: 0
