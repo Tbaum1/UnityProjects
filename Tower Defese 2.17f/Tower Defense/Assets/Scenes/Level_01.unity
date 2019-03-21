@@ -1422,7 +1422,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298601020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.4864712}
+  m_LocalPosition: {x: 0, y: 1.4718742, z: -3.4864712}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1566736961}
@@ -2130,7 +2130,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 478380630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.4864712}
+  m_LocalPosition: {x: 0, y: 0.62, z: -3.4864712}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 278816403}
@@ -2660,6 +2660,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 54602858262544306, guid: b223bcf1144d8514a89eba8ae68d0674,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b223bcf1144d8514a89eba8ae68d0674, type: 2}
   m_IsPrefabAsset: 0
@@ -2685,7 +2690,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 597406194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.217777, y: -1, z: -17.7}
+  m_LocalPosition: {x: 28.217777, y: 0.47187424, z: -17.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2136308652}
@@ -6842,11 +6847,11 @@ MonoBehaviour:
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 8
-    enemyFastCount: 0
+    enemyFastCount: 4
     enemyToughCount: 3
     enemyBossCount: 0
     enemySimpleRate: 2
-    enemyFastRate: 0
+    enemyFastRate: 2
     enemyToughRate: 2
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
@@ -6859,7 +6864,7 @@ MonoBehaviour:
     enemyToughCount: 0
     enemyBossCount: 0
     enemySimpleRate: 0
-    enemyFastRate: 0
+    enemyFastRate: 4
     enemyToughRate: 0
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
@@ -10053,7 +10058,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840875351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.28203, y: -48.171875, z: -21.82559}
+  m_LocalPosition: {x: 32.28203, y: -46.7, z: -21.82559}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1948845939}

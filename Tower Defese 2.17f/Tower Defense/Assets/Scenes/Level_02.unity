@@ -4934,7 +4934,7 @@ Prefab:
         type: 3}
     - target: {fileID: 1478319265862242, guid: 5eebc3e7a49813447a9842602dfcc66b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eebc3e7a49813447a9842602dfcc66b, type: 2}
@@ -5582,32 +5582,6 @@ MonoBehaviour:
     enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
-    enemySimpleCount: 1
-    enemyFastCount: 0
-    enemyToughCount: 0
-    enemyBossCount: 0
-    enemySimpleRate: 2
-    enemyFastRate: 0
-    enemyToughRate: 0
-    enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
-      type: 2}
-    enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 0}
-    enemyBossPrefab: {fileID: 0}
-    enemySimpleCount: 2
-    enemyFastCount: 0
-    enemyToughCount: 0
-    enemyBossCount: 0
-    enemySimpleRate: 2
-    enemyFastRate: 0
-    enemyToughRate: 0
-    enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
-      type: 2}
-    enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 0}
-    enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 4
     enemyFastCount: 0
     enemyToughCount: 0
@@ -5629,19 +5603,45 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 0}
-    enemyFastPrefab: {fileID: 0}
-    enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
+    enemyFastPrefab: {fileID: 0}
+    enemyToughPrefab: {fileID: 0}
+    enemyBossPrefab: {fileID: 0}
+    enemySimpleCount: 8
+    enemyFastCount: 0
+    enemyToughCount: 0
+    enemyBossCount: 0
+    enemySimpleRate: 2
+    enemyFastRate: 0
+    enemyToughRate: 0
+    enemyBossRate: 0
+  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
+      type: 2}
+    enemyFastPrefab: {fileID: 0}
+    enemyToughPrefab: {fileID: 0}
+    enemyBossPrefab: {fileID: 0}
+    enemySimpleCount: 10
+    enemyFastCount: 0
+    enemyToughCount: 0
+    enemyBossCount: 0
+    enemySimpleRate: 2
+    enemyFastRate: 0
+    enemyToughRate: 0
+    enemyBossRate: 0
+  - enemySimplePrefab: {fileID: 0}
+    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
+      type: 2}
+    enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 1569021672177864, guid: 5d696757cc98a8442a2c17858d17a683,
       type: 2}
     enemySimpleCount: 0
-    enemyFastCount: 0
-    enemyToughCount: 1
+    enemyFastCount: 4
+    enemyToughCount: 0
     enemyBossCount: 1
     enemySimpleRate: 0
-    enemyFastRate: 0
-    enemyToughRate: 1
+    enemyFastRate: 2
+    enemyToughRate: 0
     enemyBossRate: 1
   - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
@@ -5649,7 +5649,7 @@ MonoBehaviour:
       type: 2}
     enemyToughPrefab: {fileID: 0}
     enemyBossPrefab: {fileID: 0}
-    enemySimpleCount: 6
+    enemySimpleCount: 8
     enemyFastCount: 4
     enemyToughCount: 0
     enemyBossCount: 0
@@ -5684,14 +5684,13 @@ MonoBehaviour:
     enemyFastRate: 0
     enemyToughRate: 1
     enemyBossRate: 0
-  - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
-      type: 2}
+  - enemySimplePrefab: {fileID: 0}
     enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
       type: 2}
     enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
-    enemySimpleCount: 12
+    enemySimpleCount: 0
     enemyFastCount: 5
     enemyToughCount: 1
     enemyBossCount: 0
@@ -5735,17 +5734,16 @@ MonoBehaviour:
       type: 2}
     enemyBossPrefab: {fileID: 0}
     enemySimpleCount: 0
-    enemyFastCount: 6
+    enemyFastCount: 9
     enemyToughCount: 3
     enemyBossCount: 0
     enemySimpleRate: 0
-    enemyFastRate: 2
+    enemyFastRate: 3
     enemyToughRate: 2
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 1844362039714484, guid: e336de8983d43f343bb3edd693cd67b0,
       type: 2}
-    enemyFastPrefab: {fileID: 1125212200129462, guid: aff0e563e77cee64185df7cca285f577,
-      type: 2}
+    enemyFastPrefab: {fileID: 0}
     enemyToughPrefab: {fileID: 1321847236548834, guid: 41fe65fbf5f1c834a8de32b93d62b8f2,
       type: 2}
     enemyBossPrefab: {fileID: 0}
@@ -5767,7 +5765,7 @@ MonoBehaviour:
     enemyToughCount: 0
     enemyBossCount: 0
     enemySimpleRate: 0
-    enemyFastRate: 0
+    enemyFastRate: 4
     enemyToughRate: 0
     enemyBossRate: 0
   - enemySimplePrefab: {fileID: 0}
@@ -5859,7 +5857,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 1078769074}
   waveCountdownText: {fileID: 1380326924}
   waveNumberText: {fileID: 1428698671}
-  waveSpawnCounter: 1
+  waveSpawnCounter: 8
   gameManager: {fileID: 1384133588}
 --- !u!4 &1384133585
 Transform:
@@ -5902,7 +5900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93623fc71ffd46f4bbf9b89d4c5f38ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoins: 350
+  startCoins: 500
   startLives: 20
 --- !u!114 &1384133588
 MonoBehaviour:
@@ -7846,7 +7844,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1808315399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.3}
+  m_LocalPosition: {x: 0, y: -1.01, z: -3.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 537961079}
