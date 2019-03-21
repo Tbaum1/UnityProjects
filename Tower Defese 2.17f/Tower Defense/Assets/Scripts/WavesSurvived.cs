@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class WavesSurvived : MonoBehaviour {
 
     public Text wavesText;
-
+    
     /// <summary>
     /// when the player beats a level onEnabled is called
     /// </summary>
@@ -29,9 +29,13 @@ public class WavesSurvived : MonoBehaviour {
 
         while (wave < PlayerStats.Waves)
         {
-            wave++;
-            wavesText.text = wave.ToString();
 
+            wave++;
+            wavesText.text = (wave - 1).ToString();
+            if(wave == 10 && !GameMan.GameIsOver)
+            {
+                wavesText.text = wave.ToString();
+            }
             yield return new WaitForSeconds(.05f);
         }
     }
