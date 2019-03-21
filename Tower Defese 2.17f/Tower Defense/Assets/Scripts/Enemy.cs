@@ -24,6 +24,13 @@ public class Enemy : MonoBehaviour {
 
     private void Start()
     {
+        //checks to see if the waveCounter is modulus by 5 to equal 1 for every level greater than level 1, 1 % 5 returns 1 so we skip it
+        //if true then increment the health of the enemy by 25
+        if (WaveSpawn.waveCounter > 1 && WaveSpawn.waveCounter % 5 == 1)
+        {
+            startHealth += 25f;
+        }
+
         health = startHealth;
         speed = startSpeed; //when game starts set enemy startSpeed
     }

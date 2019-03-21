@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class WaveSpawn : MonoBehaviour {
 
     public static int EnemiesAlive = 0;
+    public static int waveCounter = 0;
 
     public Wave[] waves;
 
@@ -71,8 +72,8 @@ public class WaveSpawn : MonoBehaviour {
 
         Wave wave = waves[waveNumber];  //get the index of the wave stored in the waves array
         CountEnemies(wave);
-        
-
+        waveNumber++;  //increments the wave number
+        waveCounter = waveNumber;
 
         //interate through the number of enemies in the wave
         for (int i =0; i < wave.enemySimpleCount; i++)
@@ -111,7 +112,7 @@ public class WaveSpawn : MonoBehaviour {
             }
         }
 
-        waveNumber++;  //increments the wave number
+        
         if (waveNumber == waves.Length && EnemiesAlive == 0)
         {
             gameManager.WinLevel();
