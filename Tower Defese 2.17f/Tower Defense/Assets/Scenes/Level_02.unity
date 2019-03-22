@@ -5694,7 +5694,7 @@ MonoBehaviour:
     enemyFastCount: 5
     enemyToughCount: 1
     enemyBossCount: 0
-    enemySimpleRate: 2
+    enemySimpleRate: 0
     enemyFastRate: 2
     enemyToughRate: 1
     enemyBossRate: 0
@@ -5791,7 +5791,7 @@ MonoBehaviour:
     enemyFastCount: 0
     enemyToughCount: 0
     enemyBossCount: 0
-    enemySimpleRate: 0
+    enemySimpleRate: 2
     enemyFastRate: 0
     enemyToughRate: 0
     enemyBossRate: 0
