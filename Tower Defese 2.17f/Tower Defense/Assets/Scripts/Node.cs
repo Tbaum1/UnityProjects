@@ -159,7 +159,7 @@ public class Node : MonoBehaviour {
             return;
 
         
-        if (buildManager.HasLevelOneCoins || buildManager.HasLevelTwoCoins || buildManager.HasLevelThreeCoins || buildManager.HasLevelFourCoins)  //if player has enough coins to purchase turret then it highlights the node according
+        if (HasCoins())  //if player has enough coins to purchase turret then it highlights the node according
         {
             rend.material.color = hoverColor;
         }
@@ -167,6 +167,22 @@ public class Node : MonoBehaviour {
         {
             rend.material.color = notEnoughCoinsColor;  //if player does not have enough coins to purchase turret then node highlights red
         }
+    }
+
+    /// <summary>
+    /// checks to see if player has enough coins to purchase a turret 
+    /// </summary>
+    /// <returns></returns>
+    private bool HasCoins()
+    {
+        if (buildManager.HasLevelOneCoins || buildManager.HasLevelTwoCoins || buildManager.HasLevelThreeCoins || buildManager.HasLevelFourCoins)  //if player has enough coins to purchase turret then it highlights the node according
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+            
     }
 
     /// <summary>

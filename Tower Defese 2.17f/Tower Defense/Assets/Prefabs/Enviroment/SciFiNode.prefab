@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14130b0cbe2f34c4a9d7d7c96be345af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0.59607846, g: 0.5764706, b: 0.5764706, a: 0}
+  hoverColor: {r: 0.21933961, g: 0.29613268, b: 0.5, a: 0.26666668}
   notEnoughCoinsColor: {r: 0.78431374, g: 0.19607843, b: 0.19607843, a: 0}
   turretShopInfo: {fileID: 0}
   turretName: {fileID: 0}
