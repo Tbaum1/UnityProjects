@@ -179,42 +179,36 @@ public class Node : MonoBehaviour {
 
     public void UpgradeTurret()
     {
-        turretLevel++;  //adds 1 to the target node turretLevel
         
+        if (PlayerStats.Coins < turretBlueprint.LevelTwoCost)
+        {
+            Debug.Log("Not enough money to upgrade that!");
+            turretShopInfo.text = "Not Enough Coins To Upgrade";
+            Invoke("DisableText", 5f);
+            return;
+        }
+
+        turretLevel++;  //adds 1 to the target node turretLevel
+
         //Destroy(turret);  //Get rid of the old turret
         if (turretLevel == 2)
-        {
-            if (PlayerStats.Coins < turretBlueprint.LevelTwoCost)
-            {
-                Debug.Log("Not enough money to upgrade that!");
-                return;
-            }
+        {            
             Destroy(turret);
             PlayerStats.Coins -= turretBlueprint.LevelTwoCost;
             GameObject _turret = (GameObject)Instantiate(turretBlueprint.levelTwoPrefab, GetBuildPosition(), Quaternion.identity);  //builds a new turret at the target node            
             Debug.Log("Turret upgrade cost: " + turretBlueprint.LevelTwoCost + ", Coins left: " + PlayerStats.Coins);  //display how many coins are left
             turret = _turret;  //replaces the turret prefab of the main turret variable            
         }
-        if (turretLevel == 3)
+        else if (turretLevel == 3)
         {
-            if (PlayerStats.Coins < turretBlueprint.LevelThreeCost)
-            {
-                Debug.Log("Not enough money to upgrade that!");
-                return;
-            }
             Destroy(turret);
             PlayerStats.Coins -= turretBlueprint.LevelThreeCost;
             GameObject _turret = (GameObject)Instantiate(turretBlueprint.levelThreePrefab, GetBuildPosition(), Quaternion.identity);  //builds a new turret at the target node
             Debug.Log("Turret upgrade cost: " + turretBlueprint.LevelThreeCost + ", Coins left: " + PlayerStats.Coins);  //display how many coins are left
             turret = _turret;  //replaces the turret prefab of the main turret variable
         }
-        if (turretLevel == 4)
-        {
-            if (PlayerStats.Coins < turretBlueprint.LevelFourCost)
-            {
-                Debug.Log("Not enough money to upgrade that!");
-                return;
-            }
+        else if (turretLevel == 4)
+        {            
             isUpgraded = true;
             Destroy(turret);
             PlayerStats.Coins -= turretBlueprint.LevelFourCost;
