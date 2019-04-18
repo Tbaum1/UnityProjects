@@ -10,7 +10,3 @@ Not all projects will be fully finished.
 ## Authors
 
 **Anthony Tennenbaum** 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
